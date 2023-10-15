@@ -3,7 +3,7 @@ const port = 3000;
 const app = express();
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hello world with node + docker + CI/CD" });
+  res.json({ message: "Hello world with node + github action + docker + CI/CD" });
 });
 
 app.listen(port, () => console.log(`This app run on ${port}`));
